@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- ========== BOX ICONS ========== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    
+    <!-- ========== CSS ========== -->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Responsive CV</title>
+</head>
+<body>
+    <!-- ========== HEADER ========== -->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Volchak</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home nav__icon'></i>Home
+                        </a>
+                    </li>
+                    
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>Profile
+                        </a>
+                    </li>
+                    
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bxs-graduation nav__icon'></i>Education
+                        </a>
+                    </li>
+                    
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'></i>Skills
+                        </a>
+                    </li>
+                    
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase nav__icon'></i>Experience
+                        </a>
+                    </li>
+                    
+                    <li class="nav__item">
+                        <a href="#certificates" class="nav__link">
+                            <i class='bx bx-award nav__icon'></i>Certificates
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt nav__icon'></i>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="l-main bd-container">
+        <!-- All elements within this div is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!-- ========== HOME ========== -->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="vlchk.jpg" alt="" class="home__img">
+
+                            <h1 class="home__title">VOLCHAK <b>OLEKSII</b></h1>
+                            <h3 class="home__profession">Front end developer</h3>
+
+                            <!-- Button to download your CV saved in the pdf folder -->
+                            <div>
+                                <a download="" href="#" class="home__button-mobil">Download</a>
+                            </div>
+                        </div>
+
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map home__icon'></i> St. Knyahyni Olʹhy #77 Lviv - Ukraine
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-envelope home__icon'></i> volex1804@gmail.com
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-phone home__icon'></i> +38(099)-770-48-85
+                            </span>
+                        </div>
+                    </div>
+                    <!-- ========== THEME CHANGE COLOR ========== -->
+                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                    <!-- Button to generate and download pdf -->
+                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                </section>
+
+                <!-- ========== SOCIAL ========== -->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+
+                    <div class="social__container bd-grid">
+                        <a href="https://t.me/sadnesscs" target="_blank" class="social__link">
+                            <i class='bx bxl-telegram social__icon'></i> @sadnesscs
+                        </a>
+                        <a href="https://www.instagram.com/alex_vlchk/" target="_blank" class="social__link">
+                            <i class='bx bxl-instagram-alt social__icon'></i> @alex_vlchk
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100017202185823" target="_blank" class="social__link">
+                            <i class='bx bxl-facebook social__icon'></i> @sadnesscs
+                        </a>
+                    </div>
+                </section>
+
+                <!-- ========== PROFILE ========== -->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+
+                    <p class="profile__description">
+                        Highly effective in developing and standardizing design according to the brand and goals of the company. Ready to contribute to a growth-oriented team. Ready to learn and develop own skills for the success and prosperity of the company. I consider my own experience in the field of sales, as well as in the field of marketing useful in this position and in the execution of relevant orders.
+                    </p>
+                </section>
+                <!-- ========== EDUCATION ========== -->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education-title">SECONDARY EDUCATION</h3>
+                                <span class="education__studies">School #32</span>
+                                <span class="education__year">2007 - 2018</span>
+                            </div>
+                        </div>
+                        
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education-title">HTML/CSS and JavaScript</h3>
+                                <span class="education__studies">MateAcademy</span>
+                                <span class="education__year">2020 - 2021</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <!-- <span class="education__line"></span> -->
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education-title">BACHELOR OF COMPUTER SCIENCE</h3>
+                                <span class="education__studies">National Forestry University</span>
+                                <span class="education__year">2021 - 2026</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ========== SKILLS ========== -->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+
+                    <div class="skills__container bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Html
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Css
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Adaptive Web Design
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> JavaScript
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <div class="resume__right">
+                <!-- ========== EXPERIENCE ========== -->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">BACHELOR OF COMPUTER SCIENCE</h3>
+                                <span class="experience__company">From 2021 to 2026 | NLTU</span>
+                                <p class="experience__description">During the training, basic knowledge of several programming languages was gained, as well as skills in front end were improved.</p>
+                            </div>
+                        </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+    
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">SECONDARY EDUCATION</h3>
+                                    <span class="experience__company">From 2007 to 2018 | School #32</span>
+                                    <p class="experience__description">The school gave me a solid knowledge of mathematics and computer science, which helped me in choosing a future profession.</p>
+                                </div>
+                            </div>
+                                <div class="experience__content">
+                                    <div class="experience__time">
+                                        <span class="experience__rounder"></span>
+                                        <!-- <span class="experience__line"></span> -->
+                                    </div>
+        
+                                    <div class="experience__data bd-grid">
+                                        <h3 class="experience__title">HTML/CSS and JavaScript</h3>
+                                        <span class="experience__company">From 2020 to 2021 | MateAcademy</span>
+                                        <p class="experience__description">The courses consolidated my knowledge in the field of development, as well as greatly developed my knowledge of the programming language.</p>
+                                    </div>
+                                </div>
+                    </div>
+                    
+                        
+                    
+                </section>
+
+                <!-- ========== CERTIFICATES ========== -->
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">Certificates</h2>
+
+                    <div class="certificate__container bd-grid">
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Certified for successfully completed HTML course (2020)</h3>
+                            <p class="certificate_description">For successful completion of the course and for all completed tasks.</p>
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Certified for successfully completed CSS course (2020)</h3>
+                            <p class="certificate_description">For successful completion of the course and for all completed tasks.</p>
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Certified for successfully completed JavaScript course (2021)</h3>
+                            <p class="certificate_description">For successful completion of the course by demonstrating theoretical and practical understanding of JavaScript.</p>
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Certified for successfully completed Responsive Web Design course (2021)</h3>
+                            <p class="certificate_description">For successful completion of the course by demonstrating theoretical and practical understanding of Adaptive Layout.</p>
+                        </div>
+                    </div>
+                </section>
+            
+                <!-- ========== LANGUAGES ========== -->
+                <section class="languages section">
+                    <h2 class="section-title">Languages</h2>
+
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Ukrainian
+                            </li>
+
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Russian
+                            </li>
+
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> English
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- ========== INTERESTS ========== -->
+                <section class="interests section">
+                    <h2 class="section-title">Interests</h2>
+
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class='bx bx-headphone interests__icon'></i>
+                            <span class="interests__name">Music</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bx-run interests__icon'></i>
+                            <span class="interests__name">Sport</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bxs-car interests__icon'></i>
+                            <span class="interests__name">Driving</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bxs-plane-alt interests__icon'></i>
+                            <span class="interests__name">Travel</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+            </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ========== SCROLL TOP ========== -->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bxs-up-arrow-alt scrolltop__icon'></i>
+    </a>
+    <!-- ========== HTML2PDF ========== -->
+    <script src="html2pdf.bundle.min.js"></script>
+
+    <!-- ========== SCRIPT ========== -->
+    <script src="script.js"></script>
+</body>
+</html>
